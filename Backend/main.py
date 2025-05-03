@@ -1,9 +1,15 @@
 from fastapi import FastAPI
 from app.routes import router
 
-app = FastAPI()
+app = FastAPI(
+    title="SheCare AI Backend",
+    description="Backend API for Menstrual Health Tracking App",
+    version="1.0.0"
+)
+
+# Register routes
 app.include_router(router)
 
 @app.get("/")
 def root():
-    return {"message": "PCOS Tracker API is running"}
+    return {"message": "SheCare AI backend is running!"}
