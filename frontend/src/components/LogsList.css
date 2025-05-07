@@ -1,0 +1,40 @@
+.logs-container {
+    background: #ffffff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logs-container h2 {
+    margin-bottom: 20px;
+    color: #004A71;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logs-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .log-item {
+    background: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .log-item p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
